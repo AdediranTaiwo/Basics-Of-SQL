@@ -60,10 +60,21 @@ CREATE TABLE Students (
   Department VARCHAR(50),
   CreatedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP);
 ```
+## Tpes Of Commands in SQL
 
+SQL commands can be categorized into five main types based on their functionality:
 
+### 1. **DQL (Data Query Language)**  
+   Used to query and retrieve data from the database.
 
+### 2. **DML (Data Manipulation Language)**  
+   Used to modify the data in the database.
+   
+### 3. **DDL (Data Definition Language)**  
+   Used to define and manage database structure, such as tables, views, and schemas.
 
+### 4. **DCL (Data Control Language)**  
+   Used to control access to data in the database.
 
-
+  
 
