@@ -46,7 +46,20 @@ SQL (Structured Query Language) is a powerful language used for managing and man
    ```sql
    CREATE TABLE users (id INT, name VARCHAR(50), age INT);
    ```
+## How Tables can be created
 
+```
+CREATE TABLE Students (
+  StudentID INT PRIMARY KEY,
+  FirstName VARCHAR(50) NOT NULL,
+  LastName VARCHAR(50) NOT NULL,
+  Email VARCHAR(100) UNIQUE,
+  DateOfBirth DATE,
+  Gender VARCHAR(10),
+  Course VARCHAR(50),
+  Department VARCHAR(50),
+  CreatedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP);
+```
 
 
 
